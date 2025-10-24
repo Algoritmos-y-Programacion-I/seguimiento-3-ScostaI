@@ -2,13 +2,13 @@ package model;
 
 public class SchoolController {
 
-    /*
-     * ATENCION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-     * Agregue los atributos (relaciones) necesarios para satisfacer los
-     * requerimientos.
-     */
+    private String name;
+    private int hourSpentSupport;
+    private int [][] computers;
 
-    public SchoolController() {
+    public SchoolController(String name) {
+
+        this.name = name;
 
     }
 
@@ -22,7 +22,8 @@ public class SchoolController {
      * Agregue la logica necesaria (instrucciones) para satisfacer los
      * requerimientos.
      */
-    public void agregarComputador() {
+
+    public void agregarComputador(String serialNumber, int [][] computers) {
 
     }
 
